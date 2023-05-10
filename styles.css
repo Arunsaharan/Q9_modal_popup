@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal-wrap,.content,.cross-icon{
+    width: 350px;
+}
+
+.modal-wrap{
+    display: none;
+    margin:  50px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #3cae3c;
+    border-radius: 20px ;
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-80%);
+    z-index: 2;
+    
+}
+.cross-icon{
+    color: blue;
+    padding:10px 20px;
+    text-align: right;
+}
+i{
+    cursor: pointer;
+}
+h3{
+    margin-bottom: 20px;
+}
+.btn{
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #7fc01c;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
